@@ -1,0 +1,23 @@
+THREE MOST IMPORTANT REASONS TO DEFINE CUSTOMER SATISFACTION WHEN DELIVERY IS DELAYED
+product_description_lenght - 0.079,
+order_products_value - 0.076,
+order_freight_value - 0.065.
+
+TOTAL DELAYS - 317
+Delivery problem: 250 (78.86%),
+Quality problem: 23 (7.26%),
+Satisfied: 44 (13.88%).
+
+DELAYED DELIVERY - NUMBER OF REVIEWS BEFORE AND AFTER DELIVERY
+276 (87.07%) of customer make a review BEFORE delivery,
+41 (12.93%) of customer make a review AFTER delivery.
+
+DELAYED DELIVERY - NUMBER OF REVIEWS BEFORE DELIVERY (PER CLASS) - 276
+Delivery problem: 233 (84.42%),
+Quality problem: 16 (5.80%),
+Satisfied: 27 (9.78%).
+
+DELAYED DELIVERY - NUMBER OF REVIEWS AFTER DELIVERY (PER CLASS) - 41
+Delivery problem: 17 (41.46%),
+Quality problem: 7 (17.07%),
+Satisfied: 17 (41.46%).
