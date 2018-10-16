@@ -48,11 +48,11 @@ STEP 4: olist_delay_analisys.py
 
 - This script is a basic analysis of how the customer review the order in case of delayed deliveries.
 - It presents:
-THREE MOST IMPORTANT REASONS TO DEFINE CUSTOMER SATISFACTION WHEN DELIVERY IS DELAYED
-TOTAL DELAYS
-DELAYED DELIVERY - NUMBER OF REVIEWS BEFORE AND AFTER DELIVERY
-DELAYED DELIVERY - NUMBER OF REVIEWS BEFORE DELIVERY (PER CLASS)
-DELAYED DELIVERY - NUMBER OF REVIEWS AFTER DELIVERY (PER CLASS)
+(THREE MOST IMPORTANT REASONS TO DEFINE CUSTOMER SATISFACTION WHEN DELIVERY IS DELAYED), 
+(TOTAL DELAYS), 
+(DELAYED DELIVERY - NUMBER OF REVIEWS BEFORE AND AFTER DELIVERY), 
+(DELAYED DELIVERY - NUMBER OF REVIEWS BEFORE DELIVERY (PER CLASS)), 
+(DELAYED DELIVERY - NUMBER OF REVIEWS AFTER DELIVERY (PER CLASS)).
 
 - Conclusion: 
 When delivery is delayed, customers tend to immediately (before delivery) review the order as "delivery problem", only 12% of these customers wait for delivery to make a fair review. In addition, even delayed, some customers review the order as "satisfied", it may be related to their satisfaction with three other features (products value, freight value, and products description lenght). Finally, reviews before delivery assigned as "quality problem" are not considered fair reviews, and it may due to the customer insatisfactions with the same three other features (products value, freight value, and products description lenght).
