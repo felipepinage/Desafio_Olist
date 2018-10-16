@@ -47,7 +47,7 @@ STEP 3: olist_modelo.py
 STEP 4: olist_delay_analisys.py
 
 - This script is a basic analysis of how the customer review the order in case of delayed deliveries.
-- It presents:
+- It presents:  
 (THREE MOST IMPORTANT REASONS TO DEFINE CUSTOMER SATISFACTION WHEN DELIVERY IS DELAYED),  
 (TOTAL DELAYS),  
 (DELAYED DELIVERY - NUMBER OF REVIEWS BEFORE AND AFTER DELIVERY),  
