@@ -58,4 +58,4 @@ STEP 4: olist_delay_analisys.py
 When delivery is delayed, customers tend to immediately (before delivery) review the order as "delivery problem", only 12% of these customers wait for delivery to make a fair review. In addition, even delayed, some customers review the order as "satisfied", it may be related to their satisfaction with three other features (products value, freight value, and products description lenght). Finally, reviews before delivery assigned as "quality problem" are not considered fair reviews, and it may due to the customer insatisfactions with the same three other features (products value, freight value, and products description lenght).
 
 - input: [olist_prepared.csv]
-- output: [olist_delay_results.txt]
+- output: [olist_delay_results.txt], [inDelay_heatmap_corr.png], [inDelay_important_features.png], [inDelay_reviews_after.png], [inDelay_reviews_before.png], [inDelay_reviews_before_after.png], [inDelay_total.png]
