@@ -2,18 +2,18 @@
 
 STEP 1: olist_preprocessing.py
 
-- From the original classified dataset, the following attributes remain in the output dataset: 
+- From the original classified dataset, the following attributes remain in the output dataset:  
 'order_status', 'order_products_value', 'order_freight_value', 'order_items_qty', 'order_sellers_qty', 'customer_city', 'customer_state', 'product_category_name', 'product_name_lenght', 'product_description_lenght', 'product_photos_qty', 'review_score'.
 
-- and the following attributes are only used to provide NEW ATTRIBUTES:
+- and the following attributes are only used to provide NEW ATTRIBUTES:  
 'order_purchase_timestamp', 'order_aproved_at', 'order_estimated_delivery_date', 'order_delivered_customer_date', 'review_creation_date', 'review_answer_timestamp'
 
-- NEW ATTRIBUTES (included in the output dataset):
-'delta_purch_delivered': days to be delivered from the purchase date
-'delta_est_delivered': estimated delivery days from the purchase date
-'delta_approve_purch': days to approve the purchase
-'delta_review_date': days to review creation from the delivery date
-'delta_answer_date': days to research answer from the delivery date
+- NEW ATTRIBUTES (included in the output dataset):  
+'delta_purch_delivered': days to be delivered from the purchase date  
+'delta_est_delivered': estimated delivery days from the purchase date  
+'delta_approve_purch': days to approve the purchase  
+'delta_review_date': days to review creation from the delivery date  
+'delta_answer_date': days to research answer from the delivery date  
 
 - input: [olist_classified_public_dataset.csv]
 - output: [olist_prepared.csv]
@@ -48,10 +48,10 @@ STEP 4: olist_delay_analisys.py
 
 - This script is a basic analysis of how the customer review the order in case of delayed deliveries.
 - It presents:
-(THREE MOST IMPORTANT REASONS TO DEFINE CUSTOMER SATISFACTION WHEN DELIVERY IS DELAYED), 
-(TOTAL DELAYS), 
-(DELAYED DELIVERY - NUMBER OF REVIEWS BEFORE AND AFTER DELIVERY), 
-(DELAYED DELIVERY - NUMBER OF REVIEWS BEFORE DELIVERY (PER CLASS)), 
+(THREE MOST IMPORTANT REASONS TO DEFINE CUSTOMER SATISFACTION WHEN DELIVERY IS DELAYED),  
+(TOTAL DELAYS),  
+(DELAYED DELIVERY - NUMBER OF REVIEWS BEFORE AND AFTER DELIVERY),  
+(DELAYED DELIVERY - NUMBER OF REVIEWS BEFORE DELIVERY (PER CLASS)),  
 (DELAYED DELIVERY - NUMBER OF REVIEWS AFTER DELIVERY (PER CLASS)).
 
 - Conclusion: 
