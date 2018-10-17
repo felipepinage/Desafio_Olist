@@ -1,0 +1,54 @@
+----- ORIGINAL MODEL -----
+
+Original number of samples:
+1831 - satisfeito com o pedido
+419 - problema de qualidade
+702 problema na entrega
+
+Number of samples after oversampling:
+1831 - satisfeito com o pedido
+1831 - problema de qualidade
+1831 problema na entrega
+
+EVALUATION METRICS
+acc: 0.8844 - fscore: 0.8841 - prec: 0.8850 - recall: 0.8841
+
+----- LIMITED MODEL (by features) -----
+
+FEATURE IMPORTANCES
+('order_status', 0.0)
+('order_products_value', 0.03780879986453042)
+('order_freight_value', 0.04378537643587866)
+('order_items_qty', 0.05698726389786599)
+('order_sellers_qty', 0.0780429223959138)
+('customer_city', 0.04358909149908321)
+('customer_state', 0.040883680896848025)
+('product_category_name', 0.040506798261771844)
+('product_name_lenght', 0.04399361159688884)
+('product_description_lenght', 0.04369685753219696)
+('product_photos_qty', 0.03877033760326899)
+('review_score', 0.26878064317850664)
+('delta_purch_delivered', 0.05798866351248015)
+('delta_est_delivered', 0.04200285528395835)
+('delta_approve_purch', 0.0139483030407101)
+('delta_review_date', 0.07019589706550004)
+('delta_answer_date', 0.07901889793459778)
+
+FEATURES SELECTED BY IMPORTANCE
+order_freight_value
+order_items_qty
+order_sellers_qty
+customer_city
+customer_state
+product_category_name
+product_name_lenght
+product_description_lenght
+product_photos_qty
+review_score
+delta_purch_delivered
+delta_est_delivered
+delta_review_date
+delta_answer_date
+
+EVALUATION METRICS
+acc: 0.8808 - fscore: 0.8804 - prec: 0.8817 - recall: 0.8804
