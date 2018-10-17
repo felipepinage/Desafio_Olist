@@ -49,7 +49,7 @@ df_prepared = pd.read_csv('olist_prepared.csv', sep=',', header=0).replace(np.Na
 file = open("olist_modelo_results.txt","w");
 
 data = df_prepared.drop(['Unnamed: 0','most_voted_class'], axis=1) #separate data from labels
-data = data.div(df_prepared.sum(axis=1), axis=0) #normalizate data to build the classifier
+data = data.div(data.sum(axis=1), axis=0) #normalizate data to build the classifier
 
 file.write("----- ORIGINAL MODEL -----\n")
 
